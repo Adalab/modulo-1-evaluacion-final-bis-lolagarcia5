@@ -1,0 +1,27 @@
+
+.lamp{
+background-image: img class="lamp" src="./assets/images/lamp.jpg" alt="lamp";
+height:100%;
+width: 100% ;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+.tittle{
+color:white;
+font-family: Rubik-Bold;
+font-size: 30px;
+position: absolute;
+top: 50%;
+left: 29%;
+transform: translate(-50%, 100%);
+text-align: center;
+ }
+
+.tittle2{
+    display:grid;
+    align-items: center;
+}
+
+  
+

@@ -1,0 +1,38 @@
+.header{
+  background-color: white;
+  height: 160px;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+.logo{
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  top: -10%;
+  right: 38%;
+}
+
+.blog{
+  color:#4a4a4a;
+  font-family: Rubik;
+  font-size: 16px;
+  text-decoration: none;
+  position: absolute;
+  top: 80%;
+  right: 55%;
+  text-align: center;
+
+}
+
+.contacto{
+  color:#4a4a4a;
+  font-family: Rubik;
+  font-size: 16px;
+  text-decoration: none;
+  position: absolute;
+  top: 80%;
+  text-align: center;
+  right: 40%;
+}
