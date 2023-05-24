@@ -1,27 +1,58 @@
 
 .lamp{
-background-image: img class="lamp" src="./assets/images/lamp.jpg" alt="lamp";
-height:100%;
-width: 100% ;
+max-width: 100% ;
 background-size: 100% 100%;
 background-repeat: no-repeat;
+background-position: center;
 }
 
-.tittle{
-color:white;
-font-family: Rubik-Bold;
-font-size: 30px;
-position: absolute;
-top: 50%;
-left: 29%;
-transform: translate(-50%, 100%);
-text-align: center;
- }
+.main{
+    height: 500px;
+    width: 100%;
+    background-image: url("/assets/images/lamp2.jpg");   
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+}
+
+.imglamp{
+    height: 100%;
+    width: 100%;
+    display:flex;
+}
 
 .tittle2{
-    display:grid;
+    display: grid;
     align-items: center;
+    width: 161px;
+    height: 108px;
+    color:white;
+    $font-family: "Rubik-Bold";
+    font-size: 30px;
+    padding: 250px 129px 129px 20px;
 }
 
-  
+@media screen and (min-width:768px){
+    .main{
+        min-width: 100%;
+        height: 834px;
+        padding-top: 112px;
+    }
+    .tittle2{
+        font-size: 60px;
+    }
 
+    .imglamp{
+        height: 100%;
+        width: 100%;
+    }
+
+
+    }
+
+    @media screen and (min-width:1024px){
+
+    
+    .tittle2{
+        font-size: 60px;
+    }
+    }
